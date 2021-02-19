@@ -1,0 +1,76 @@
+{
+  "type": "grid",
+  "gridSize": {
+    "width": 4,
+    "height": 4
+  },
+  "backgroundColor": "#FFFFFF",
+  "children": [
+    {
+      "type": "grid",
+      "backgroundColor": "#000000",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "gridSize": {
+        "width": 5,
+        "height": 5
+      },
+      "children": [
+        {
+          "type": "block",
+          "color": "#FF8800",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 5
+          }
+        },
+        {
+          "type": "block",
+          "color": "#FF8800",
+          "position": {
+            "x": 1,
+            "y": 2
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        },
+        {
+          "type": "block",
+          "color": "#FF8800",
+          "position": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 5
+          }
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "color": "#00FF00",
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "size": {
+        "width": 1,
+        "height": 4
+      }
+    }
+  ]
+}
